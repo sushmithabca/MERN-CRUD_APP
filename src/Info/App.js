@@ -74,7 +74,8 @@ del = data =>
             <div className="container mt-4">
                 <div className="row">
                     <div className="col-6">
-                            <InfoForm myData = {this.create} setForm = {this.state.editData}/>
+                            <h1>Hello</h1>
+                           <InfoForm myData = {this.create} setForm = {this.state.editData}/>
                     </div>
                     <div className="col-6">
                             <InfoTable getData = {this.state.data} setData = {this.update} del = {this.del}/>
